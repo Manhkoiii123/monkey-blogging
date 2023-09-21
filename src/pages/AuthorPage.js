@@ -1,6 +1,6 @@
+import LabelStatus from "components/Label/LabelStatus";
 import Heading from "components/layout/Heading";
 import Layout from "components/layout/Layout";
-import LabelStatus from "drafts/LabelStatus";
 import { db } from "firebase-app/firebase-config";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import PostItem from "module/post/PostItem";
